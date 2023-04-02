@@ -4,6 +4,7 @@ colorscheme desert
 filetype on
 set number
 set cursorline
+set showcmd 
 " Set tab width to 4 columns.
 set tabstop=4
 
@@ -12,7 +13,7 @@ set expandtab
 
 " While searching though a file incrementally highlight matching characters as you type.
 set incsearch
-
+set encoding=utf8
 
 " Show partial command you type in the last line of the screen.
 set showcmd
